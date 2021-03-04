@@ -15,10 +15,10 @@ function draw() {
 	background(46,33,67);
 	
 	let level = amplitude.getLevel();
-	let size = map(level, 0, 1, 10, 400);
+	let size = map(level, 0, 1, 50, 500); // remap amplitude range of 0 and 1 to larger vallues
 	
 	fill(253,55,119);
-	ellipse(50,50,size,size);
+	ellipse(displayWidth/2, displayHeight/2, size, size);
 }
 
 // play music on mouse click
