@@ -15,3 +15,13 @@ function draw() {
 	fill(253,55,119);
 	ellipse(50,50,80,80);
 }
+
+// play music on mouse click
+function mousePressed() {
+	if (music.isPlaying()){
+		music.stop()
+	}
+	else {
+		music.play()
+	}
+}
