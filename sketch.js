@@ -1,3 +1,10 @@
+let music;
+
+// preload music
+function preload() {
+	music = loadSound('assets/royalty-free-music.mp3'); //Royalty free music from https://www.zapsplat.com
+}
+
 function setup() {
 	createCanvas(displayWidth, displayHeight);
 }
